@@ -1,18 +1,24 @@
 {
-  "name": "validation-form-mail",
-  "version": "1.0.0",
-  "description": "Library for form validation",
+  "name": "validation-form-library",
+  "version": "1.0.2",
+  "description": "Library for validating form inputs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/fatidaprilian/validateform.git"
+    "type": "git", 
+    "url": "https://github.com/fatidaprilian/validateform.git" 
   },
-  "keywords": ["validation", "form"],
+  "keywords": [
+    "validation",
+    "form",
+    "email",
+    "password",
+    "phone"
+  ],
   "author": "Ryuen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fatidaprilian/validateform/issues"
   },
