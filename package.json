@@ -1,14 +1,14 @@
 {
   "name": "validation-form-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library for validating form inputs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git", 
-    "url": "https://github.com/fatidaprilian/validateform.git" 
+    "type": "git",
+    "url": "https://github.com/fatidaprilian/validateform.git"
   },
   "keywords": [
     "validation",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/fatidaprilian/validateform/issues"
   },
-  "homepage": "https://github.com/fatidaprilian/validateform#readme"
+  "homepage": "https://github.com/fatidaprilian/validateform#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
