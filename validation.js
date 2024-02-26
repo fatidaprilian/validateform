@@ -5,25 +5,18 @@ function isValidEmail(email) {
   } else {
     return { valid: false, message: "Invalid Email" };
   }
-} 
+}
 
 function isValidPassword(password) {
-  // The password must have at least 8 characters, 1 uppercase letter, 1 lowercase letter, and 1 number
   var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
   if (re.test(password)) {
     return { valid: true, message: "Valid password" };
   } else {
     return { valid: false, message: "The password must have at least 8 characters, 1 uppercase letter, 1 lowercase letter, and 1 number" };
-  }
-}
-
-function isValidPhoneNumber(phoneNumber) {
-  var re = /^(\+?\d{1,4}?)?\s?-?\s?(\(?\d{3}\)?)\s?-?\s?\d{3}\s?-?\s?\d{4}$/;
-  return re.test(phoneNumber);
+  } 
 }
 
 module.exports = {
   isValidEmail,
-  isValidPassword,
-  isValidPhoneNumber  
+  isValidPassword
 };
